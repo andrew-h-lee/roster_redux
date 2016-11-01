@@ -1,6 +1,6 @@
-import path from 'path';
+var path = require('path');
 
-export default {
+module.exports = {
   entry: {
     bundle: [
       './src/client'
