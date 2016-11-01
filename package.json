@@ -3,7 +3,12 @@
   "version": "0.1.2",
   "description": "Scheduling System",
   "author": "Andrew H. Lee",
-  "license": "MIT",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --config webpack.config.client-start.js",
+    "build": "node ./node_modules/webpack/bin/webpack --config webpack.config.client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "history": "^4.3.0",
     "react": "^15.3.2",
