@@ -3,7 +3,7 @@ import 'babel-polyfill';
 
 import React from 'react';
 
-import { createHistory } from 'history';
+// import { createHistory } from 'history';
 import { Provider } from 'react-redux';
 import { render } from 'react-dom';
 import { Router , browserHistory } from 'react-router';
@@ -12,10 +12,10 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import configureStore from './store/configure-store';
 import Route from './route';
 
-const history = createHistory();
+// const history = createHistory();
 const store = configureStore();
 
-syncHistoryWithStore(history, store);
+// syncHistoryWithStore(history, store);
 
 const component = (
   <Provider store={store} key="provider">
