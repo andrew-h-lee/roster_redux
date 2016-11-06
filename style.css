@@ -8,7 +8,6 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Oswald;
-    /*color: #0d6a71;*/
 }
 
 body {
@@ -39,9 +38,16 @@ nav li:not(:first-child) {
     padding-left: 1em;
 }
 
+.rego-close {
+  width: 50%;
+  float: center;
+  clear: both;
+}
+
 .half-width {
-    width: 50%;
-    float: left;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
 }
 
 .half-width:first-of-type {
@@ -62,15 +68,15 @@ ol {
 }
 
 ol li {
-    padding-bottom: 2em;
-    border-bottom: 1px solid #ababab;
-    padding: 20px;
-    /*border-radius: 10px;*/
-    background-color: rgb(244, 242, 241);
-    margin-bottom: 20px;
-    background-color: #0d6a71;
-    color: #fff;
-    border-bottom: 10px solid #0a474c;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ababab;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(244, 242, 241);
+  margin-bottom: 20px;
+  background-color: #0d6a71;
+  color: #fff;
+  border-bottom: 10px solid #0a474c;
 }
 
 .button-add {

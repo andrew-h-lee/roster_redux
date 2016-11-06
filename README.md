@@ -1,6 +1,6 @@
 # Roster Redux
 
-Scheduling App using React & Redux
+Scheduling App using React & Redux. The User can choose which events to attend. The user can choose up to three different events that run simultaneously by allocated time period.
 
 ## Tools Used:
 * Babel
@@ -9,6 +9,10 @@ Scheduling App using React & Redux
 * React Router
 * Redux
 * Webpack
+* Yarn Package Manager
+
+## Changes Made:
+*
 
 ## Reference:
 * [Babel](https://babeljs.io/)
