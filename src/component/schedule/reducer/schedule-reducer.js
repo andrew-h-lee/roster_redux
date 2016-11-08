@@ -13,9 +13,9 @@ const initialState =[{
   track: 'z',
   id: 0
   }, {
-    title: '',
-    description: '',
-    speaker: '',
+    title: 'DevOps @ Wotif',
+    description: 'Making Easy = Right',
+    speaker: 'Alexandra Spillane',
     time: {
       start: "2016-09-03T09:30:00.0Z",
       end: "2016-09-03T10:10:00.0Z"
@@ -23,9 +23,9 @@ const initialState =[{
     track: 'a',
     id: 1
   }, {
-    title: '' ,
-    description: '',
-    speaker: '',
+    title: 'Autonomy & Asynchrony' ,
+    description: 'The Key to Designing Reliable Systems',
+    speaker: 'Indu Alagarsamy',
     time: {
       start: "2016-09-03T09:30:00.0Z",
       end: "2016-09-03T10:10:00.0Z"
@@ -43,16 +43,16 @@ const initialState =[{
     track: 'c',
     id: 3
   }, {
-//    title: '',
-//    description: '',
-//    speaker: '',
-//    time: {
-//      start: "2016-06-03T11:10:00.0Z",
-//      end: "2016-06-03T11:50:00.0Z"
-//    },
-//    track: 'a',
-//    id: 4
-//  }, {
+    title: 'Scala for Big Data Platform',
+    description: 'Lessons from the Spark Project',
+    speaker: 'Dean Wampler',
+    time: {
+      start: "2016-06-03T11:10:00.0Z",
+      end: "2016-06-03T11:50:00.0Z"
+    },
+    track: 'a',
+    id: 4
+  }, {
 //    title: '',
 //    description: '',
 //    speaker: '',
