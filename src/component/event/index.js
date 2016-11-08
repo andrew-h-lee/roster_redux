@@ -5,7 +5,7 @@ export default class Event extends Component {
     return (
       <div>
         <h2>{this.props.title}</h2>
-        <p>{this.props.speaker}</p>
+        <b>{this.props.speaker}</b>
         <p>{this.props.description}</p>
         {this.props.isAdded ?
           <button className="button-remove" type="button" onClick={this.props.removeHandler}>Remove</button> :
