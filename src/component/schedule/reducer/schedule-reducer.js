@@ -7,8 +7,8 @@ const initialState =[{
   description: 'Kick off the day with a Big Breakfast',
   speaker: 'Conference Announcement',
   time: {
-    start: "2016-09-03T08:30:00.0Z",
-    end: "2016-09-03T09:30:00.0Z"
+    start: "2016-09-03T08:30:00",
+    end: "2016-09-03T09:30:00"
   },
   track: 'z',
   id: 0
@@ -17,8 +17,8 @@ const initialState =[{
     description: 'Making Easy = Right',
     speaker: 'Alexandra Spillane',
     time: {
-      start: "2016-09-03T09:40:00.0Z",
-      end: "2016-09-03T10:30:00.0Z"
+      start: "2016-09-03T09:40:00",
+      end: "2016-09-03T10:30:00"
     },
     track: 'a',
     id: 1
@@ -27,8 +27,8 @@ const initialState =[{
     description: 'The Key to Designing Reliable Systems',
     speaker: 'Indu Alagarsamy',
     time: {
-      start: "2016-09-03T09:40:00.0Z",
-      end: "2016-09-03T10:30:00.0Z"
+      start: "2016-09-03T09:40:00",
+      end: "2016-09-03T10:30:00"
     },
     track: 'b',
     id: 2
@@ -37,8 +37,8 @@ const initialState =[{
     description: 'Whether, When & How to Migrate',
     speaker: 'Randy Shoup',
     time: {
-      start: "2016-09-03T09:40:00.0Z",
-      end: "2016-09-03T10:30:00.0Z"
+      start: "2016-09-03T09:40:00",
+      end: "2016-09-03T10:30:00"
     },
     track: 'c',
     id: 3
@@ -47,8 +47,8 @@ const initialState =[{
     description: 'Lessons from the Spark Project',
     speaker: 'Dean Wampler',
     time: {
-      start: "2016-09-03T11:10:00.0Z",
-      end: "2016-09-03T12:00:00.0Z"
+      start: "2016-09-03T11:10:00",
+      end: "2016-09-03T12:00:00"
     },
     track: 'a',
     id: 4
@@ -57,8 +57,8 @@ const initialState =[{
     description: 'Turning the Lights On',
     speaker: 'Dan North',
     time: {
-      start: "2016-09-03T11:10:00.0Z",
-      end: "2016-09-03T12:00:00.0Z"
+      start: "2016-09-03T11:10:00",
+      end: "2016-09-03T12:00:00"
     },
     track: 'b',
     id: 5
@@ -67,8 +67,8 @@ const initialState =[{
     description: 'Keeping Components Clean while Dealing with Data Variability',
     speaker: 'Joseph Yolder',
     time: {
-      start: "2016-09-03T11:10:00.0Z",
-      end: "2016-09-03T12:00:00.0Z"
+      start: "2016-09-03T11:10:00",
+      end: "2016-09-03T12:00:00"
     },
     track: 'c',
     id: 6
@@ -77,8 +77,8 @@ const initialState =[{
     description: 'Prediction.io in Ecommerce',
     speaker: 'David Jones',
     time: {
-      start: "2016-09-03T12:10:00.0Z",
-      end: "2016-09-03T13:00:00.0Z"
+      start: "2016-09-03T12:10:00",
+      end: "2016-09-03T13:00:00"
     },
     track: 'a',
     id: 7
@@ -87,8 +87,8 @@ const initialState =[{
     description: 'Anatomy of Machine Learning Service',
     speaker: 'Sharat Chikkerur',
     time: {
-      start: "2016-09-03T12:10:00.0Z",
-      end: "2016-09-03T13:00:00.0Z"
+      start: "2016-09-03T12:10:00",
+      end: "2016-09-03T13:00:00"
     },
     track: 'b',
     id: 8
@@ -97,8 +97,8 @@ const initialState =[{
     description: 'A RESTful API Guide to Machine Learning',
     speaker: 'James Montgomery',
     time: {
-      start: "2016-09-03T12:10:00.0Z",
-      end: "2016-09-03T13:00:00.0Z"
+      start: "2016-09-03T12:10:00",
+      end: "2016-09-03T13:00:00"
     },
     track: 'c',
     id: 9
@@ -107,8 +107,8 @@ const initialState =[{
 //    description: '',
 //    speaker: '',
 //    time: {
-//      start: "2016-09-03T14:00:00.0Z",
-//      end: "2016-96-03T14:50:00.0Z"
+//      start: "2016-09-03T14:00:00",
+//      end: "2016-09-03T14:50:00"
 //    },
 //    track: 'a',
 //    id: 10
@@ -117,8 +117,8 @@ const initialState =[{
 //    description: '',
 //    speaker: '',
 //    time: {
-//      start: "2016-09-03T14:00:00.0Z",
-//      end: "2016-09-03T14:50:00.0Z"
+//      start: "2016-09-03T14:00:00",
+//      end: "2016-09-03T14:50:00"
 //    },
 //    track: 'b',
 //    id: 11
@@ -127,8 +127,8 @@ const initialState =[{
 //    description: '',
 //    speaker: '',
 //    time: {
-//      start: "2016-09-03T14:00:00.0Z",
-//      end: "2016-09-03T14:50:00.0Z"
+//      start: "2016-09-03T14:00:00",
+//      end: "2016-09-03T14:50:00"
 //    },
 //    track: 'c',
 //    id: 12
