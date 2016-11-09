@@ -16,7 +16,9 @@ The Application can be used for organising Conferences/Expos that require simult
 * Yarn Package Manager
 
 ## Changes Made:
-* 
+* Split Data into three events
+* Styling: Add `button:hover` & `cursor:pointer`
+* Display Time of Event
 
 ## Reference:
 * [Babel](https://babeljs.io/)
