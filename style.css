@@ -82,19 +82,35 @@ ol li {
 .button-add {
     color: white;
     background: #33cd5f;
+    opacity: 1;
     border: 0;
     font-family: Oswald;
-    /*border-bottom: 5px solid #279848;    */
-    /*border: 1px solid #cecece;*/
     padding: 5px 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.button-add:hover {
+  cursor:pointer;
+  opacity: 0.75;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
 }
 
 .button-remove {
     color: white;
     background: #ef473a;
+    opacity: 1;
     border: 0;
     font-family: Oswald;
-    /*border-bottom: 5px solid #bd392f;*/
-    /*border: 1px solid #cecece;*/
     padding: 5px 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.button-remove:hover {
+  cursor:pointer;
+  opacity: 0.75;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
 }
