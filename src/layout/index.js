@@ -2,22 +2,23 @@ import React from 'react';
 
 import { Link } from 'react-router';
 
+import { Button, Navbar, Overlay } from "@blueprintjs/core";
+
 export default function Layout(props) {
   return (
     <div>
-      <header>
-        <nav>
-          <ul>
-            <li>
+        <nav className="pt-navbar pt-dark">
+          <div className="pt-navbar-group pt-align-left">
+            <button className="pt-button pt-minimal">
               <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/your-schedule">Your Schedule</Link>
-            </li>
-          </ul>
+            </button>
+            <span className="pt-navbar-divider"></span>
+            <button className="pt-button pt-minimal">
+              <Link to="/your-schedule">Your Schedule </Link>
+            </button>
+          </div>
         </nav>
-      </header>
-      
+
       <main>
         {props.children}
       </main>
