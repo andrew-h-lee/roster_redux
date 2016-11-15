@@ -14,11 +14,13 @@ The Application can be used for organising Conferences/Expos that require simult
 * Redux
 * Webpack
 * Yarn Package Manager
+* Blueprint (React UI Toolkit)
 
 ## Changes Made:
 * Split Data into three events
 * Styling: Add `button:hover` & `cursor:pointer`
 * Display Time of Event
+* Add Navbar Styling
 
 ## Reference:
 * [Babel](https://babeljs.io/)
@@ -28,3 +30,4 @@ The Application can be used for organising Conferences/Expos that require simult
 * [Redux](http://redux.js.org/)
 * [Webpack](https://webpack.github.io/)
 * [History](https://github.com/mjackson/history)
+* [Blueprint UI Toolkit](http://blueprintjs.com/)
