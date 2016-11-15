@@ -1,6 +1,6 @@
 {
   "name": "roster_redux",
-  "version": "0.1.3",
+  "version": "0.2.5",
   "description": "Scheduling System",
   "author": "Andrew H. Lee",
   "license": "ISC",
@@ -11,9 +11,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@blueprintjs/core": "^1.0.1",
     "history": "^4.3.0",
     "moment": "^2.15.2",
     "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
     "react-addons-update": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
