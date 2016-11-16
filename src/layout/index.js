@@ -14,7 +14,7 @@ export default function Layout(props) {
             </button>
             <span className="pt-navbar-divider"></span>
             <button className="pt-button pt-minimal">
-              <Link to="/your-schedule">Your Schedule </Link>
+              <Link to="/your-schedule">Your Schedule</Link>
             </button>
           </div>
         </nav>
