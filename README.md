@@ -7,6 +7,7 @@ The User is able to view schedule based on the amount of events chosen.
 The Application can be used for organising Conferences/Expos that require simultaneous speakers at a set time period. Another type of event would be University Open Day or Orientation Day.
 
 ## Tools Used:
+* JavaScript (ES6)
 * Babel
 * ESLint
 * React.js
