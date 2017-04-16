@@ -31,3 +31,7 @@ The Application can be used for organising Conferences/Expos that require simult
 * [Webpack](https://webpack.github.io/)
 * [History](https://github.com/mjackson/history)
 * [Blueprint UI Toolkit](http://blueprintjs.com/)
+
+## Need to Add:
+* Add icon on navbar (home & calander)
+* add svg images (per event)
